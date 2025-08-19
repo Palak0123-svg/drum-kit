@@ -1,0 +1,34 @@
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin: 30px 0;
+  font-size: 3rem;
+  color: #ffcb57;
+}
+
+.set {
+  margin-top: 50px;
+}
+
+.drum {
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  margin: 10px;
+  padding: 20px 30px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ff6f61, #ffcb57);
+  color: #111;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.drum:active {
+  transform: scale(0.9);
+  background: linear-gradient(135deg, #7ae0ff, #5b8cfe);
+}
